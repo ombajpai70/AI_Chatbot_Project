@@ -27,3 +27,18 @@ GENERAL_QUERY_TOP_K = 8
 COMPARISON_QUERY_TOP_K = 10
 
 METADATA_INDEX_PATH = "vector_store/metadata_index.pkl"
+
+# ------------------------
+# Oracle Database
+# ------------------------
+
+#DB_HOST = "10.0.2.15"
+DB_HOST = "127.0.0.1"
+
+DB_PORT = 1521
+
+DB_SERVICE = "orcl"
+
+DB_USER = "System"
+
+DB_PASSWORD = "Manager1"
